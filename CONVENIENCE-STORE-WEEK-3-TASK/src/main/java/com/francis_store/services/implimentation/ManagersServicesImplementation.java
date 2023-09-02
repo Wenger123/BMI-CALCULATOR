@@ -34,8 +34,8 @@ public class ManagersServicesImplementation implements ManagerServices {
                 cashierName.addStrike();
                 System.out.println(name + " you have been given a strike: " + cashierName.getStrike() + " strikes");
                 if (cashierName.getStrike() >= 3) {
-                    cashierList.remove(cashierName);
-                    cashierMap.remove(name);
+                  //  cashierList.remove(cashierName);
+                  //  cashierMap.remove(name);
                     System.out.println(name + " You cashier has been sacked due to number of strikes is greater than 3.");
                 }
             } else
